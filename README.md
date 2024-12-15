@@ -15,16 +15,13 @@
 - Stemming: Reducing words to their base forms using PorterStemmer.
 - Lemmatization: Further normalization for meaningful word forms.
 
-**Feature Extraction:**
-- TF-IDF Vectorization:
--     Transformed processed text into numerical features.
--     Limited to the top 5,000 features to balance model complexity and performance.
+**Feature Extraction:** TF-IDF Vectorization:
+- Transformed processed text into numerical features.
+- Limited to the top 5,000 features to balance model complexity and performance.
 
 **Model Training and Evaluation**
 - Classifier Used: Random Forest Classifier.
-- Train-Test Split:
--     Training Data: 80%.
--     Test Data: 20%.
+- Train-Test Split: (Training Data: 80% and Test Data: 20%)
 
 **Evaluation Metrics**
 Metric	Value
