@@ -17,14 +17,14 @@
 
 **Feature Extraction:**
 - TF-IDF Vectorization:
-o	Transformed processed text into numerical features.
-o	Limited to the top 5,000 features to balance model complexity and performance.
+-     Transformed processed text into numerical features.
+-     Limited to the top 5,000 features to balance model complexity and performance.
 
 **Model Training and Evaluation**
 - Classifier Used: Random Forest Classifier.
 - Train-Test Split:
-  o	Training Data: 80%.
-  o	Test Data: 20%.
+-     Training Data: 80%.
+-     Test Data: 20%.
 
 **Evaluation Metrics**
 Metric	Value
@@ -48,11 +48,11 @@ This demonstrates the model's ability to classify clauses accurately for the sam
 
 **Conclusion**
 1.	Strengths:
-o	The pipeline effectively preprocesses and classifies legal clauses.
-o	Visualizations provide useful insights into data distribution and model performance.
-2.	Areas for Improvement:
-o	Handle class imbalances using techniques like oversampling or class weights.
-o	Explore advanced models for better clause classification.
-3.	Next Steps:
-o	Assess other classifiers to test model performance.
-o	Explore clause summarization.
+    - The pipeline effectively preprocesses and classifies legal clauses.
+    - Visualizations provide useful insights into data distribution and model performance.
+2. Areas for Improvement:
+    - Handle class imbalances using techniques like oversampling or class weights.
+    - Explore advanced models for better clause classification.
+4.	Next Steps:
+    - Assess other classifiers to test model performance.
+    - Explore clause summarization.
