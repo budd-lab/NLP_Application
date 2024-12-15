@@ -1,21 +1,33 @@
-# NLP_Application
+### Project Title: Clause Extraction and Classification from Legal Contracts
 
-**Report: Clause Extraction and Classification from Legal Contracts**
+**Author - Buddhendra Shukla**
 
-**Objective**: The goal is to develop an NLP-based solution to:
-1.	Extract legal clauses from contracts.
-2.	Classify them into predefined categories.
-3.	Summarize effectively for better contract analysis.
-    
-**Dataset**: Legal Clause Dataset containing labeled legal clauses
+#### Executive summary
 
-**Preprocessing**: Steps taken for text preprocessing:
+#### Rationale
+Why should anyone care about this question?
+
+Contracts run businesses and unstructured data form the backbone of business operations, capturing critical business information, obligations, and risks. Manual review of contracts is time-intensive and prone to errors. By automating this process, businesses can reduce the time and cost of contract review and minimize risks by consistently identifying and addressing key contractual clauses. This will also empower non-legal personnel with tools to quickly understand contract obligations. This analysis could help bridge the gap between AI tools and real-world usability, translating complex legal documents into actionable insights that can be understood and leveraged by diverse stakeholders.
+
+#### Research Question
+What are you trying to answer?
+
+#### Data Sources
+What data will you use to answer you question?
+
+Legal Clause Dataset containing labeled legal clauses
+
+#### Methodology
+What methods are you using to answer the question?
+
+Preprocessing: Steps taken for text preprocessing:
+
 - Tokenization: Splitting text into tokens using NLTK.
 - Stopword Removal: Filtering out common words like "the", "and", etc.
 - Stemming: Reducing words to their base forms using PorterStemmer.
 - Lemmatization: Further normalization for meaningful word forms.
 
-**Feature Extraction:** TF-IDF Vectorization:
+**Feature Extraction**: TF-IDF Vectorization:
 - Transformed processed text into numerical features.
 - Limited to the top 5,000 features to balance model complexity and performance.
 
@@ -23,7 +35,9 @@
 - Classifier Used: Random Forest Classifier.
 - Train-Test Split: (Training Data: 80% and Test Data: 20%)
 
-**Evaluation Metrics**
+#### Results
+What did your research find?
+
 Metric	Value
 Accuracy	0.60
 Precision	0.63
@@ -36,20 +50,22 @@ F1-Score	0.57
 3.	term
 4.	compani
 5.	parti 
- 
-**Example Inference**: A new clause was tested
-**Clause**: "The supplier must deliver the goods within 30 days of receiving the purchase order."
-**Predicted Label**: good-reason
+
+**Example Inference**
+
+A new clause was tested:
+- **Clause**: "The supplier must deliver the goods within 30 days of receiving the purchase order."
+- **Predicted Label**: good-reason
 
 This demonstrates the model's ability to classify clauses accurately for the sample example.
 
-**Conclusion**
-1.	Strengths:
-    - The pipeline effectively preprocesses and classifies legal clauses.
-    - Visualizations provide useful insights into data distribution and model performance.
-2. Areas for Improvement:
-    - Handle class imbalances using techniques like oversampling or class weights.
-    - Explore advanced models for better clause classification.
-4.	Next Steps:
-    - Assess other classifiers to test model performance.
-    - Explore clause summarization.
+#### Next steps
+What suggestions do you have for next steps?
+
+#### Outline of project
+
+- [Link to notebook 1]()
+- [Link to notebook 2]()
+- [Link to notebook 3]()
+
+##### Contact and Further Information
