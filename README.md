@@ -10,19 +10,19 @@
 **Dataset**: Legal Clause Dataset containing labeled legal clauses
 
 **Preprocessing**: Steps taken for text preprocessing:
-•	Tokenization: Splitting text into tokens using NLTK.
-•	Stopword Removal: Filtering out common words like "the", "and", etc.
-•	Stemming: Reducing words to their base forms using PorterStemmer.
-•	Lemmatization: Further normalization for meaningful word forms.
+- Tokenization: Splitting text into tokens using NLTK.
+- Stopword Removal: Filtering out common words like "the", "and", etc.
+- Stemming: Reducing words to their base forms using PorterStemmer.
+- Lemmatization: Further normalization for meaningful word forms.
 
 **Feature Extraction:**
-•	TF-IDF Vectorization:
+- TF-IDF Vectorization:
 o	Transformed processed text into numerical features.
 o	Limited to the top 5,000 features to balance model complexity and performance.
 
 **Model Training and Evaluation**
-•	Classifier Used: Random Forest Classifier.
-•	Train-Test Split:
+- Classifier Used: Random Forest Classifier.
+- Train-Test Split:
   o	Training Data: 80%.
   o	Test Data: 20%.
 
