@@ -38,11 +38,17 @@ Preprocessing: Steps taken for text preprocessing:
 #### Results
 What did your research find?
 
-Metric	Value
-- Accuracy	0.60
-- Precision	0.63
-- Recall	0.60
-- F1-Score	0.57
+SVM classifier yielded the highest accuracy across three differenct classifiers using GridSearchCV.
+
++----+---------------+------------------------------------------------------------------+------------+
+|    | Classifier    | Best Parameters                                                  |   Accuracy |
++====+===============+==================================================================+============+
+|  0 | RandomForest  | {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200} |   0.612989 |
++----+---------------+------------------------------------------------------------------+------------+
+|  1 | SVC           | {'C': 10, 'gamma': 'scale', 'kernel': 'linear'}                  |   0.638834 |
++----+---------------+------------------------------------------------------------------+------------+
+|  2 | MultinomialNB | {'alpha': 0.5}                                                   |   0.463883 |
++----+---------------+------------------------------------------------------------------+------------+
 
 **Insights from Feature Importance**: Top features contributing to predictions:
 1.	agreement
