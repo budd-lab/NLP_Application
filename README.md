@@ -37,10 +37,10 @@ F1-Score	0.57
 4.	compani
 5.	parti 
  
-**Example Inference**
-A new clause was tested:
+**Example Inference**: A new clause was tested
 **Clause**: "The supplier must deliver the goods within 30 days of receiving the purchase order."
 **Predicted Label**: good-reason
+
 This demonstrates the model's ability to classify clauses accurately for the sample example.
 
 **Conclusion**
