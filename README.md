@@ -56,4 +56,3 @@ o	Explore advanced models for better clause classification.
 3.	Next Steps:
 o	Assess other classifiers to test model performance.
 o	Explore clause summarization.
-![image](https://github.com/user-attachments/assets/816cff0b-48ba-4962-93ad-d642f34440fe)
