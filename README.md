@@ -38,17 +38,11 @@ Preprocessing: Steps taken for text preprocessing:
 #### Results
 What did your research find?
 
-SVM classifier yielded the highest accuracy across three differenct classifiers using GridSearchCV.
+SVM classifier yielded the highest accuracy across three differenct classifiers using GridSearchCV:
 
-+----+---------------+------------------------------------------------------------------+------------+
-|    | Classifier    | Best Parameters                                                  |   Accuracy |
-+====+===============+==================================================================+============+
-|  0 | RandomForest  | {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200} |   0.612989 |
-+----+---------------+------------------------------------------------------------------+------------+
-|  1 | SVC           | {'C': 10, 'gamma': 'scale', 'kernel': 'linear'}                  |   0.638834 |
-+----+---------------+------------------------------------------------------------------+------------+
-|  2 | MultinomialNB | {'alpha': 0.5}                                                   |   0.463883 |
-+----+---------------+------------------------------------------------------------------+------------+
+- RandomForest (Best Parameters:  {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}) & Accuracy: 0.612989
+- SVM (Best Parameters:  {'C': 10, 'gamma': 'scale', 'kernel': 'linear'})  & Accuracy: 0.638834
+- MultinomialNB (Best Parameters:  {'alpha': 0.5} )  & Accuracy: 0.463883
 
 
 **Insights from Feature Importance**: Top features contributing to predictions:
