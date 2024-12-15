@@ -39,10 +39,10 @@ Preprocessing: Steps taken for text preprocessing:
 What did your research find?
 
 Metric	Value
-Accuracy	0.60
-Precision	0.63
-Recall	0.60
-F1-Score	0.57
+- Accuracy	0.60
+- Precision	0.63
+- Recall	0.60
+- F1-Score	0.57
 
 **Insights from Feature Importance**: Top features contributing to predictions:
 1.	agreement
@@ -65,7 +65,5 @@ What suggestions do you have for next steps?
 #### Outline of project
 
 - [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
 
 ##### Contact and Further Information
