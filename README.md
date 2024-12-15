@@ -32,7 +32,7 @@ Preprocessing: Steps taken for text preprocessing:
 - Limited to the top 5,000 features to balance model complexity and performance.
 
 **Model Training and Evaluation**
-- Classifier Used: Random Forest Classifier.
+- Classifier Used: Random Forest Classifier, SVM, and MultinomialNB
 - Train-Test Split: (Training Data: 80% and Test Data: 20%)
 
 #### Results
@@ -49,6 +49,7 @@ SVM classifier yielded the highest accuracy across three differenct classifiers 
 +----+---------------+------------------------------------------------------------------+------------+
 |  2 | MultinomialNB | {'alpha': 0.5}                                                   |   0.463883 |
 +----+---------------+------------------------------------------------------------------+------------+
+
 
 **Insights from Feature Importance**: Top features contributing to predictions:
 1.	agreement
